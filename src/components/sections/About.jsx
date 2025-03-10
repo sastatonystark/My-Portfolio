@@ -9,7 +9,7 @@ export const About = () => {
         <section id='about' className='min-h-screen flex items-center justify-center py-20 bg-black text-white'>
             <RevealonScroll>
                 <div className='max-w-4xl mx-auto px-6'>
-                    <h2 className='text-3xl sm:text-4xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-center'>
+                    <h2 className='text-4xl sm:text-5xl font-bold mb-8 text-center bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent'>
                         About Me
                     </h2>
 

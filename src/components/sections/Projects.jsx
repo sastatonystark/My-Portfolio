@@ -1,5 +1,5 @@
-import React from 'react'
-import { RevealonScroll } from '../RevealonScroll'
+import React from 'react';
+import { RevealonScroll } from '../RevealonScroll';
 
 const projectData = [
     {
@@ -33,7 +33,7 @@ export const Projects = () => {
         <section id='projects' className='min-h-screen py-16 px-4 bg-black'>
             <RevealonScroll>
                 <div className='max-w-5xl mx-auto'>
-                    <h2 className='text-3xl sm:text-4xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-center'>
+                    <h2 className='text-3xl sm:text-4xl font-bold mb-8 text-center bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent'>
                         Featured Projects
                     </h2>
                     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-6'>
@@ -69,5 +69,5 @@ export const Projects = () => {
                 </div>   
             </RevealonScroll>
         </section>
-    )
-}
+    );
+};
